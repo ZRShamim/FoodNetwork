@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.highlight {
+  color: #f3722c;
+}
+
+.btn-main {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+/* Extra Feature: Navbar Design */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 120px;
+}
+
+.nav-logo {
+  cursor: pointer;
+}
+
+.nav-item {
+  color: #f3722c;
+  margin-left: 30px;
+}
+
+/* Section Design */
+.section {
+  display: flex;
+  align-items: center;
+}
+
+.half-sec {
+  width: 40%;
+  padding: 5%;
+}
+
+/* Home section Design */
+.section-home {
+  margin: 20px;
+}
+
+.section-home img {
+  width: 100%;
+}
+
+/* About section Design */
+.section-about {
+  background-image: url('./images/shapes/7.png');
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
+.section-about img {
+  width: 55%;
+}
+
+.section-description {
+  text-align: center;
+}
+
+.section-description p {
+  margin: 0 300px;
+}
+
+/* Recipe section Design*/
+.recipes {
+  display: flex;
+}
+
+.recipe {
+  width: 30%;
+  margin: 3%;
+  box-shadow: 5px 5px 30px gray;
+  height: 70%;
+  border-radius: 20px;
+}
+
+.recipe h2,
+.recipe p {
+  padding: 0 20px;
+}
+
+.recipes img {
+  width: 90%;
+  border-radius: 20px;
+  margin: 15px;
+}
+
+/* Footer Design */
+footer {
+  text-align: center;
+  background: rgb(16, 16, 24);
+}
+
+footer h2 {
+  color: gray;
+  padding: 20px 0;
+}
+footer p {
+  color: gray;
+  margin: 0;
+  padding: 20px 0 60px 0;
+}
